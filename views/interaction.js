@@ -1,4 +1,4 @@
-// var circ = [];
+var circ = [];
 
 function setup() {
 	var canvas = createCanvas(windowWidth, windowHeight);
@@ -7,11 +7,11 @@ function setup() {
 }
 
 function draw() {
-	// background(0);
+	background(0);
 	ellipse(mouseX,mouseY,30,30);
-	// for(var i=0; i<circ.length; i++){
-	// 	circ[i].display();
-	// }
+	for(var i=0; i<circ.length; i++){
+	 	circ[i].display();
+	 }
 }
 
 function windowResized() {
@@ -19,13 +19,13 @@ function windowResized() {
 }
 
 function mouseClicked() {
-	fill(color(random(0,255),random(0,255),random(0,255)));
-	ellipse(mouseX,mouseY,100,100);
+	// fill(color(random(0,255),random(0,255),random(0,255)));
+	// ellipse(mouseX,mouseY,100,100);
 
-	//circ.push(new Circlick());
+	circ.push(new Circlick());
 }
 
-/*
+
 function Circlick() {
 	this.x = mouseX;
 	this.y = mouseY;
@@ -38,4 +38,3 @@ function Circlick() {
 		ellipse(this.x, this.y, 100, 100);
 	};
 }
-*/

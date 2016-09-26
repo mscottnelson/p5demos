@@ -9,6 +9,7 @@ function setup() {
   capture.hide();
   noStroke();
   fill(0);
+	frameRate(10);
 }
 
 function draw() {
@@ -20,9 +21,9 @@ function draw() {
       var i = y * width + x;
       var darkness = (255 - capture.pixels[i*4]) / 255;
       var radius = stepSize * darkness;
-      ellipse(x, y, radius, radius);
+      //ellipse(x, y, radius, radius);
 			//line(x,y,x+radius,y+radius);
-			//rect(x,y,radius,radius);
+			rect(x,y,radius,radius);
 			// push();
 			// 	translate(x,y);
 			// 	rotate(PI*frameCount/200);

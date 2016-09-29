@@ -1,5 +1,5 @@
 ## Simple Demos for p5
-The original files in this repo were used for the 'Intro to Generative Art' demo at the unofficial DevFest 2016.
+The original files in this repo were used for the 'Intro to Generative Art' demo at the unofficial DevFestMD 2016.
 
 ## How to Use
 

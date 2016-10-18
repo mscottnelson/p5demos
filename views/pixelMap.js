@@ -1,5 +1,3 @@
-var fingers;
-
 function setup() {
   var canvas = createCanvas(640, 480);
 	canvas.parent('sketch-holder');
